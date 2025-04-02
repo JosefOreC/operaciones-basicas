@@ -1,6 +1,10 @@
-# Este script contiene errores comunes que violan las normas PEP 8
+"""dsahfiuas"""
 
+
+# Este script contiene errores comunes que violan las normas PEP 8
 class OperacionesBasicas:
+    """Constructor"""
+
     def __init__(self):
         self.resultado = 0
 
@@ -13,19 +17,31 @@ class OperacionesBasicas:
         self.resultado = a - b
 
     def obtener_resultado(self):
+        """get result"""
         return self.resultado
 
 
 class CalculadoraPromedio:
+    """Constructor promdio"""
+
     def __init__(self, valores):
         self.valores = valores
 
-    def calcular_promedio(self):
+    def get_valores(self):
+        """fdslahfdsa"""
+        return self.valores
+    def suma_valores(self):
+        """fasfjdsia"""
         suma = 0
         for valor in self.valores:
             suma += valor
-        promedio = suma / len(self.valores)
-        return promedio
+
+        return suma
+
+    def calcular_promedio(self):
+        """sdafnsdkf"""
+        promedio_local = self.suma_valores() / len(self.valores)
+        return promedio_local
 
 
 # Variables globales
